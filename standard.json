@@ -1,0 +1,10 @@
+[
+    {"attack": "clean"},
+    {"attack": "apgd", "eps": 8, "bb": 0, "steps":10, "attack_loss":"ce"},
+    {"attack": "apgd", "eps": 8, "bb": 0, "steps":10, "attack_loss":"dlr"},
+    {"attack": "fgsm", "eps": 8, "bb": 0},
+    {"attack": "pgd", "eps": 8, "bb": 0, "alpha": 2.55, "steps":7},
+    {"attack": "pgd", "eps": 8, "bb": 0, "alpha": 2, "steps":10},
+    {"attack": "pgd", "eps": 8, "bb": 0, "alpha": 1, "steps":20},
+    {"attack": "pgd", "eps": 8, "bb": 0, "alpha": 0.5, "steps":40}   
+]
